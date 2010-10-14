@@ -5,7 +5,7 @@ use strict;
 &print_notes;
 
 sub print_notes {
-    print <<HERE;
+    print <<'HERE';
 mkdir --parent /usr/lib/chromium/plugins
 cd /usr/lib/chromium/plugins
 wget --no-clobber https://s3.amazonaws.com/troywill/devel/flash/libflashplayer.so
